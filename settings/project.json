@@ -8,7 +8,14 @@
     ]
   ],
   "excluded-modules": [
-    "3D Physics/Builtin"
+    "TiledMap",
+    "VideoPlayer",
+    "WebView",
+    "3D",
+    "3D Primitive",
+    "3D Physics/cannon.js",
+    "3D Physics/Builtin",
+    "3D Particle"
   ],
   "preview-port": 7456,
   "design-resolution-width": 640,
@@ -32,5 +39,6 @@
     "audience": {
       "enable": false
     }
-  }
+  },
+  "last-module-event-record-time": 1722605683376
 }

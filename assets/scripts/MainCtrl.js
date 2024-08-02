@@ -2,7 +2,10 @@ cc.Class({
     extends: cc.Component,
 
     properties: {
-        
+        audioClip: {
+            default: null,
+            type: cc.AudioClip
+        }
     },
 
     onLoad() {
@@ -12,6 +15,7 @@ cc.Class({
     },
 
     changeScene() {
+        cc.audioEngine.playEffect(this.audioClip, false);
         cc.director.loadScene('play');
     }
 });
