@@ -9,5 +9,5 @@
 
 ## 截图
 
-![image](screenshots/1.png)
-![image](screenshots/2.png)
+<img src="screenshots/1.png" style="width:240px;height:360px;"/>
+<img src="screenshots/2.png" style="width:240px;height:360px;"/>
