@@ -9,5 +9,4 @@
 
 ## 截图
 
-<img src="screenshots/1.png" style="width:240px;height:360px;"/>
-<img src="screenshots/2.png" style="width:240px;height:360px;"/>
+<img src="screenshots/1.png" style="width:240px;height:360px;"/> <img src="screenshots/2.png" style="width:240px;height:360px;"/>
