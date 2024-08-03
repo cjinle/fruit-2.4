@@ -82,7 +82,8 @@ cc.Class({
 
         this.initMartix();
         
-        cc.audioEngine.playMusic(this.bgAudio, true);
+        const audioId = cc.audioEngine.playMusic(this.bgAudio, true);
+        cc.audioEngine.setVolume(audioId, .35);
     },
 
     initMartix() {
@@ -113,11 +114,12 @@ cc.Class({
         this.fruits.addChild(newFruit);
 
         newFruit.on(cc.Node.EventType.TOUCH_END, () => {
+            let audioId = 0;
             if (newFruit.getComponent(FruitItem).isActive) {
                 let musicIdx = this._actives.length - 2;
                 if (musicIdx < 0) musicIdx = 0;
                 if (musicIdx > 6) musicIdx = 6;
-                cc.audioEngine.playEffect(this.brokenAudio[musicIdx], false);
+                audioId = cc.audioEngine.playEffect(this.brokenAudio[musicIdx], false);
                 
                 this.removeActivedFruits();
                 this.dropFruits();
@@ -128,8 +130,9 @@ cc.Class({
 
                 this.activeNeighbor(newFruit.getComponent(FruitItem));
                 this.showActivesScore();
-                cc.audioEngine.playEffect(this.selectAudio, false);
+                audioId = cc.audioEngine.playEffect(this.selectAudio, false);
             }
+            if (audioId > 0) cc.audioEngine.setVolume(audioId, .4);
         });
     },
 
@@ -271,7 +274,8 @@ cc.Class({
 
         cc.find('/Canvas/nextStage').active = true;
         
-        cc.audioEngine.playEffect(this.wowAudio, false);
+        const audioId = cc.audioEngine.playEffect(this.wowAudio, false);
+        cc.audioEngine.setVolume(audioId, .5);
     },
 
     changeScene() {

@@ -15,7 +15,8 @@ cc.Class({
     },
 
     changeScene() {
-        cc.audioEngine.playEffect(this.audioClip, false);
+        const audioId = cc.audioEngine.playEffect(this.audioClip, false);
+        cc.audioEngine.setVolume(audioId, .4);
         cc.director.loadScene('play');
     }
 });
