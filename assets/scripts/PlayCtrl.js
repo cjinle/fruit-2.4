@@ -1,7 +1,7 @@
 const HIGH_SCORE_KEY = 'highScore';
 const STAGE_KEY = 'stage';
 const localStorage = cc.sys.localStorage;
-const FruitItem = require('./FruitItem.js');
+const FruitItem = require('FruitItem');
 
 cc.Class({
     extends: cc.Component,
