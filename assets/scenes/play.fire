@@ -498,7 +498,7 @@
       "ctor": "Float64Array",
       "array": [
         116.345,
-        446.339,
+        449.339,
         0,
         0,
         0,
@@ -2459,6 +2459,41 @@
     "fruits": {
       "__id__": 35
     },
+    "bgAudio": {
+      "__uuid__": "0a28c1ae-1b7a-4cdf-a1c0-e42f43e60ed1"
+    },
+    "wowAudio": {
+      "__uuid__": "e3e2a85f-5f07-42bb-a25d-0176864c5b19"
+    },
+    "selectAudio": {
+      "__uuid__": "e2fc8c3f-ce8b-486f-8357-c8ff087698da"
+    },
+    "brokenAudio": [
+      {
+        "__uuid__": "84b86263-3dbb-4ed2-84c8-fbff1ef7e3c6"
+      },
+      {
+        "__uuid__": "9833d98a-ed62-4e27-bd37-04d3ddc643bb"
+      },
+      {
+        "__uuid__": "ae316aaf-2775-4175-8ff1-727c6fe56843"
+      },
+      {
+        "__uuid__": "34765a46-d18e-4f6e-bf52-0dbbf84fead4"
+      },
+      {
+        "__uuid__": "60e1cafb-3bab-41a0-9f76-2fd6774c4ae4"
+      },
+      {
+        "__uuid__": "066745f5-292c-48da-aa0e-a0307af85c9b"
+      },
+      {
+        "__uuid__": "0a904361-9c01-47bd-a6f4-f6d283ef70f1"
+      },
+      {
+        "__uuid__": "260e7fc6-6f9a-460d-82b9-64a3b0e1a50b"
+      }
+    ],
     "_highScore": 123,
     "_stage": 0,
     "_target": 0,

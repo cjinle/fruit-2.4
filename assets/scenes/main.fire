@@ -577,6 +577,9 @@
       "__id__": 2
     },
     "_enabled": true,
+    "audioClip": {
+      "__uuid__": "41ced5db-c904-4a4b-b137-e67fc7222304"
+    },
     "_id": "bfTEFtg2tOrotZkrxq5/ec"
   }
 ]
